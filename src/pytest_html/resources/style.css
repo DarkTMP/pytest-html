@@ -113,7 +113,7 @@ span.xpassed,
   max-height: none;
 }
 .logwrapper.expanded .logexpander:after {
-  content: "collapse [-]";
+  content: "[-]";
 }
 .logwrapper .logexpander {
   z-index: 1;
@@ -128,7 +128,7 @@ span.xpassed,
   background-color: #e6e6e6;
 }
 .logwrapper .logexpander:after {
-  content: "expand [+]";
+  content: "[+]";
 }
 .logwrapper .logexpander:hover {
   color: #000;
@@ -207,18 +207,18 @@ div.media {
 }
 
 .col-result {
-  width: 130px;
+  width: 160px;
 }
 .col-result:hover::after {
-  content: " (hide details)";
+  content: " (скрыть детали)";
 }
 
 .col-result.collapsed:hover::after {
-  content: " (show details)";
+  content: " (показать детали)";
 }
 
 #environment-header h2:hover::after {
-  content: " (hide details)";
+  content: " (скрыть детали)";
   color: #bbb;
   font-style: italic;
   cursor: pointer;
@@ -226,7 +226,7 @@ div.media {
 }
 
 #environment-header.collapsed h2:hover::after {
-  content: " (show details)";
+  content: " (показать детали)";
   color: #bbb;
   font-style: italic;
   cursor: pointer;
